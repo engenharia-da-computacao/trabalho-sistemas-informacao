@@ -9,7 +9,7 @@ Trabalho realizado pelo terceiro período de Engenharia da Computação pela Uni
 
 Certo dia, em empresa de desenvolvimento de software, surge um cliente com uma demanda que envolve o pré-processamento de uma base de dados envolvendo jogos da loteria. Os analistas dessa empresa elicitam os requisitos junto ao cliente. Em um segundo momento, os analistas e programadores se reúnem para esquematizar o processo de desenvolvimento do software. Implementado os requisitos do software, o testador busca erros no mesmo e reporta aos programadores. Logo que os erros foram corrigidos, foi necessária uma validação do software em relação completude, ou seja, verificar se todos os requisitos foram atendidos.
 
-<img src="https://github.com/engenharia-da-computacao/trabalho-sistemas-informacao/blob/master/System/base/print.png" align="center" />
+<img src="https://raw.githubusercontent.com/engenharia-da-computacao/trabalho-sistemas-informacao/master/System/base/print.png" align="center" />
 
 ## Descrição dos cargos ##
 
