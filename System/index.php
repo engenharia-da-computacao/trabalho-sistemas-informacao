@@ -15,11 +15,13 @@
     /** Chamando arquivo base **/
     $conteudo = utf8_encode(file_get_contents('base/D_LOTMAN.HTM'));
 
+    /** Retirando dados inúteis **/
     $posicaoInicio = strpos($conteudo,"<table");
     $conteudo = substr($conteudo, $posicaoInicio);
 
     $posicaoFinal = strpos($conteudo,"</table>");
     $conteudo = substr($conteudo, 0,$posicaoFinal);
+    /** Renderizando **/
     echo $conteudo;
 
 ?>

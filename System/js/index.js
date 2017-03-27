@@ -7,7 +7,7 @@
 
         table.find('tr').each(function(itr){
             array = [];
-            if($("tr:nth-child("+itr+") td:nth-child(24)").text() == 1){
+            if($("tr:nth-child("+(itr+1)+") td:nth-child(24)").text() == 1){
             	++concursos;
                 $(this).find('td').each(function(itd){
                     if(itd <= 24 || itd == 32){
