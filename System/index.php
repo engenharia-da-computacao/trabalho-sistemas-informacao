@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<button id="calculaNumeros"> Meus números da sorte!</button>
+
 
 <?php
     /** Chamando arquivo base **/
@@ -22,7 +24,7 @@
     $posicaoFinal = strpos($conteudo,"</table>");
     $conteudo = substr($conteudo, 0,$posicaoFinal);
     /** Renderizando **/
-    echo $conteudo;
+    echo '<div class="hidden">'.$conteudo.'</div>';
 
 ?>
 <script src="js/jquery.js"></script>
