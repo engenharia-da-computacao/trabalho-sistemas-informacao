@@ -1,9 +1,14 @@
 <?php
 
-$dados = json_decode($_POST['data']);
+$dados = $_POST['data'];
 
-$cont = 0;
-foreach ($dados as $data) {
- ++$cont;
-}
-echo $cont;
+$dados = json_decode(($dados),true);
+
+//echo print_r($dados);
+
+/** Include class **/
+include_once "Class/Processa.php";
+
+$processa = new Processa($dados);
+
+echo print_r($processa->returnArrayNumeros2());

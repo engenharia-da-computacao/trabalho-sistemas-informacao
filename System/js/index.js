@@ -35,17 +35,19 @@ function calculaNumerosSorte(){
             array.push(aux);
         }
 
-        //if(concursos == 10)
-        //    return false;
+        if(concursos == 2)
+            return false;
 
 
     });
-    /** Realizando envio dos dados **/
+    console.log(JSON.stringify(array));
+
+    /** Realizando envio dos dados**/
     $.post("processa.php", {
         "data": JSON.stringify(array)
     })
         .done(function (retorno) {
-            alert(retorno);
+            console.log(retorno);
             array = [];
         });
 }
