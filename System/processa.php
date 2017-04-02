@@ -1,14 +1,11 @@
 <?php
 
+//$dados = isset($_POST['data']) ? filter_input(INPUT_POST, 'data', FILTER_SANITIZE_STRING) : '';
 $dados = $_POST['data'];
 
-$dados = json_decode(($dados),true);
-
-//echo print_r($dados);
-
-/** Include class **/
-include_once "Class/Processa.php";
+/** Include app **/
+include_once "app.php";
 
 $processa = new Processa($dados);
 
-echo print_r($processa->returnArrayNumeros2());
+echo $processa->saveDataFile();
