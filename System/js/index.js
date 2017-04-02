@@ -27,15 +27,15 @@ function returnArrayDataTable(){
         if ($("tr:nth-child(" + (itr + 1) + ") td:nth-child(24)").text() == 1) {
             ++concursos;
             $(this).find('td').each(function (itd) {
-                if (itd <= 24 || itd == 32) {
+                if (itd <= 21 || itd == 31) {
                     pushToAry(chave[itd], $(this).text())
                 }
 
             });
             array.push(aux);
         }
-       if(concursos == 1)
-            return false;
+       //if(concursos == 1)
+         //   return false;
 
     });
 
