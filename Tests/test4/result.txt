@@ -1,0 +1,3 @@
+# Colocar registros duplicados na tabela #
+
+O arquivo de dados é gerado com os registros com IDs duplicados.

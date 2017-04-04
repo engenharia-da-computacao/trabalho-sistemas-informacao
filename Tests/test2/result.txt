@@ -1,0 +1,4 @@
+# Apagar arquivo base #
+
+Erro FATAL ocorrido devido ao arquivo base não ser encontrado.
+Arrumar sem ocorrer um erro FATAL e mostrar uma observação sobre.

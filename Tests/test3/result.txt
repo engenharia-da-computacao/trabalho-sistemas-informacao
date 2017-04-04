@@ -1,0 +1,5 @@
+# Apagar conteudo do arquivo base #
+
+O sistema funciona, mas não deveria por não existir dados para salvar.
+Ao final ele salva os dados, mas sem nenhum registro.
+Desabilitar botão de ação nesse caso.
